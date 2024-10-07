@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DDE6ED;
+    font-family: 'Montserrat'; 
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color: #526D82;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #825252;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #DDE6ED;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+button.aksi.edit {
+    background-color: #528258; 
+    color: white;
+}
+
+button.aksi.edit:hover {
+    background-color: #528258; 
+}
+
+
+button.aksi.delete {
+    background-color: #825252; 
+    color: white; 
+}
+
+button.aksi.delete:hover {
+    background-color: #825252;
+}
+
+#floating-options {
+    display: none; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+#floating-options button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#floating-options button:hover {
+    background-color: #f0f0f0;
+}
+
+.table-responsive {
+    overflow-x: auto; 
+}
